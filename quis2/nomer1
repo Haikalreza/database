@@ -1,7 +1,7 @@
 cd ke folder yang ingin dicompose
 cd src
 mv .env.example .env
-ifconfig, copy IP WSL yang berada di line ke-2
+ifconfig, copy IP WSL
 Masukkan DB_PORT, DB_DATABASE, DB_USERNAME, dan DB_PASSWORD
 Ganti DB_HOST menjadi IP WSL yang tadi sudah dicopy
 docker-compose up -d --build
